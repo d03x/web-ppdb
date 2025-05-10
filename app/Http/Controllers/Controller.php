@@ -16,7 +16,7 @@ abstract class Controller
     }
     public function view($view = null, $data = [], $mergeData = [])
     {
-        $data['title'] = $this->getTitle();
+        view()->share('title', $this->getTitle());
         return view($view, $data, $mergeData);
     }
 }

@@ -1,3 +1,3 @@
-@vite([
-    'resources/assets/js/app.js'
-])
+<x-auth::layouts.master>
+    Hidayat Dadan
+</x-auth::layouts.master>

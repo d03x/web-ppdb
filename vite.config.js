@@ -9,6 +9,7 @@ async function getConfig() {
         'Modules/Auth/resources/assets/js/app.js',
         'resources/css/app.css',
         'resources/js/app.js',
+        'Modules/Auth/resources/assets/sass/app.scss'
     ];
     const allPaths = await collectModuleAssetsPaths(paths, 'Modules');
 
